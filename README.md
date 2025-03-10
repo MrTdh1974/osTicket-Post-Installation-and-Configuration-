@@ -19,7 +19,9 @@ These instructions outlines the post-install configuration of the open-source he
 
 - Windows 10</b> (21H2)
 
+Video Tutorial
 
+https://youtu.be/l4JHoQ7yObE
 
 
 ## **Phase 2: Configuration**
@@ -46,23 +48,36 @@ into its operational stage where it can, and will, handle tickets, user requests
 - Configure Departments
    1. Admin Panel -> Agents -> Departments
    2. Create "System Administrators" department to handle all high-priority system-level issues
+ 
+    
+![osTicket 14](https://github.com/user-attachments/assets/1ab71a76-b08a-4b49-adf1-da37f151c151)
 
-- Configure Teams
+
+- Configure Teams 
   1. Admin Panel -> Agents -> Teams
   2. Set up Level I and Level II support teams to handle different tiers of support requests
  
 - Configure Agents (Workers)
   1. Admin Panel -> Agents -> Add New
   2. Add agents like "Jane" and "John" to handle incoming tickets
+ 
+  ![osTicket 15](https://github.com/user-attachments/assets/7ab81c7c-c35b-46c4-bcac-5003a7d96348)
+
 
 - Configure Users (Customers)
   1. Agent Panel -> Users -> Add New
   2. Add users like "Karen" and "Ken" who will submit tickets
  
+  ![osTicket 19](https://github.com/user-attachments/assets/dace0c6b-9473-4b81-ad8d-86a614bd4218)
+
+ 
 - Configure SLA (Service Level Agreements)
 
   SLAs define the timeframes in which tickets are to be resolved based on the severity of said issues. Proper monitoring
   and configuration of SLAs will ensure critical issues are prioritized and handled in an efficient manner
+
+![osTicket 20](https://github.com/user-attachments/assets/6e35c262-d9d4-4b14-b88c-e2a7a4210766)
+
 
   1. Admin Panel -> Manage -> SLA
   2. Set Up the following SLAs:
@@ -73,6 +88,10 @@ into its operational stage where it can, and will, handle tickets, user requests
 - Configure Help Topics
   Help topics categorize the types of support requests users may submit. Having the proper categorization in place
   will help route tickets to the correct teams and/or department
+
+
+
+![osTicket 21](https://github.com/user-attachments/assets/f9495391-22e3-47d8-af88-5c43d20bc636)
 
   1. Admin Panel -> Manage -> Help Topics
   2. Add common help topics such as:
